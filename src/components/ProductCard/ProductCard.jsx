@@ -1,12 +1,9 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-// import itemImg from "../../img/items/shirt.png";
 import itemImg from "../../img/items/shirt_4.webp";
 import Price from "../Price/Price";
 import './productCard.scss';
 import Rating from "../Rating/Rating";
 
-// на этом этапе я делаю только дизайн и не буду создавать переменные
 function ProductCard() {
   return (
     <div className="col d-flex ">
