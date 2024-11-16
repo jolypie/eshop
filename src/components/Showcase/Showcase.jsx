@@ -1,5 +1,6 @@
 import React from "react";
 import "../Showcase/showcase.scss";
+import { BlackRoundButton } from "../Button/Buttons";
 
 function Showcase() {
   return (
@@ -13,7 +14,9 @@ function Showcase() {
               designed to bring out your individuality and cater to your sence
               of
             </p>
-            <button class="btn btn-dark btn-lg">Shop Now</button>
+            <BlackRoundButton>
+              Shop Now
+            </BlackRoundButton>
           </div>
         </div>
       </section>

@@ -23,7 +23,7 @@ function ProductSection() {
 
   return (
     <div>
-      <h1 className="display-2 d-flex justify-content-center py-5">
+      <h1 className="display-4 d-flex justify-content-center py-5 fw-bold">
         NEW ARRIVALS
       </h1>
       <div className="container-fluid d-flex px-lg-5">
