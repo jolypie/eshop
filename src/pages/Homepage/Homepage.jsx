@@ -5,6 +5,7 @@ import Brands from "../../components/Brands/Brands";
 import ProductSection from "../../components/ProductSection/ProductSection";
 import './homepage.scss'
 import ReviewSection from "../../components/ReviewSection/ReviewSection";
+import Footer from "../../components/Footer/Footer";
 
 function Homepage() {
   return (
@@ -13,7 +14,10 @@ function Homepage() {
       <Showcase />
       <Brands />
       <ProductSection />
+      <hr />
+      <ProductSection />
       <ReviewSection />
+      <Footer />
     </>
   );
 }

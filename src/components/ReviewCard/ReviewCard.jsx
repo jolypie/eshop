@@ -4,7 +4,7 @@ import "./reviewCard.scss";
 
 function ReviewCard() {
   return (
-      <div className="review_card d-flex flex-column p-3 mx-4 gap-2 ">
+      <div className="review_card d-flex flex-column p-3 mx-3 gap-2 ">
         <Rating rating={5} />
         <div className="d-flex align-content-center">
           <h5 className="m-0">Sarah M.</h5>
